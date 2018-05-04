@@ -1,0 +1,135 @@
+/* LOGO TIPO DA CLUBE */
+
+.top{
+    margin-bottom: 5px;
+    border-style: solid;
+    border-bottom-width: 0;
+    border-top-width: 5px;
+    border-right-width: 0;
+    border-left-width: 0;
+    color: #41A65E;
+}
+
+.logo{
+    margin-top: 5px;
+}
+
+.imgStyle{
+    margin: 0 auto;
+}
+
+/* style das lojas */
+.StyleImg{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.box{
+    margin-top: 10px;
+}
+
+.promocaoImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+/* detalhes da loja */
+.border{
+    border-top: solid 2px #41A65E;
+}
+
+
+/* menu principal */
+.navbar-inverse {
+    background-color: #41A65E;
+    border-color: #fff;
+}
+
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+
+
+/*********  menu celular *********/
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle {
+    background-color: #41A65E;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #41A65E;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #fff;
+}
+
+/*===============  index do site ======================*/
+
+.row{
+    margin: 5px;
+}
+
+.btn-default{
+    color: #000;
+    background-color: #fff;
+    border-color: #41A65E;
+    width: 100%;
+}
+
+/*=========== login reset ===============*/
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #41A65E;
+    border-color: #ddd;
+}
+
+
+/*============ footer ===================*/
+
+.footer{
+    background-color: #41A65E;
+    color: #fff;
+    margin-top: 50px;
+    padding: 5px;
+    height: 130px;
+}
+
+.footerStyle{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footerStyle a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*============ end for footer ===================*/
+
+
+@media (min-width: 768px)
+.navbar {
+    border-radius: 0px;
+}
+
+@media (max-width: 480px){
+    h1, h3{
+        font-size: 15px;
+}
+
